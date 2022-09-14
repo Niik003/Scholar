@@ -1,0 +1,130 @@
+a {
+    font-size: 14px;
+    font-weight: 700
+}
+
+.superNav {
+    font-size: 13px;
+}
+
+.form-control {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width:540px) {
+    .centerOnMobile {
+        text-align: center
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+a.offer {
+    animation: effect 0.7s linear infinite;
+}
+
+@keyframes effect {
+    0% {
+        background: linear-gradient(
+                #00ff00, #00ff00);
+        -webkit-background-clip: text;
+    }
+
+    25% {
+        background: linear-gradient(
+                #ff0000, #ff0000);
+        -webkit-background-clip: text;
+    }
+
+    50% {
+        background: linear-gradient(
+                yellow, yellow);
+        -webkit-background-clip: text;
+    }
+
+    75% {
+        background: linear-gradient(
+                pink, pink);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(
+                #000FFF, #000FFF);
+        -webkit-background-clip: text;
+    }
+}
+
+.flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+.padding {
+    padding: 3rem !important
+}
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    border: none;
+    margin-bottom: 30px;
+}
+
+.card .card-header {
+    background-color: transparent;
+    border-bottom: none;
+    padding: 25px 20px;
+}
+
+.card .card-header+.card-block, .card .card-header+.card-block-big {
+    padding-top: 0;
+}
+
+.card-block {
+    padding: 1.25rem;
+    background-color: #fff;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.card-sub {
+    cursor: move;
+    border: none;
+    -webkit-box-shadow: 0 0 1px 2px rgba(0,0,0,0.05), 0 -2px 1px -2px rgba(0,0,0,0.04), 0 0 0 -1px rgba(0,0,0,0.05);
+    box-shadow: 0 0 1px 2px rgba(0,0,0,0.05), 0 -2px 1px -2px rgba(0,0,0,0.04), 0 0 0 -1px rgba(0,0,0,0.05);
+}
+
+.card-block {
+    padding: 1.25rem;
+    background-color: #fff;
+}

@@ -1,0 +1,181 @@
+a {
+    font-size: 14px;
+    font-weight: 700
+}
+
+.superNav {
+    font-size: 13px;
+}
+
+.form-control {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width:540px) {
+    .centerOnMobile {
+        text-align: center
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+h2 {
+    padding-top: 12px;
+    font-weight: 200;
+    text-align: center;
+    font-size: 1.9rem;
+    color: #000;
+    line-height: 0.9em !important;
+    text-transform: none;
+}
+
+h2 span {
+    text-shadow: 2px 2px black;
+    color: #FFCC00;
+    animation-delay: 2s;
+}
+
+.section {
+    display: flex;
+    gap: 20px;
+    max-width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    box-shadow: 0 3px 10px 0 rgba(#000, 0.1);
+    -webkit-overflow-scrolling: touch;
+    scroll-padding: 1rem;
+    margin: 1rem auto 0;
+    padding-bottom: 1rem;
+    /* border-radius: 5px; */
+}
+
+.section__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 300px;
+    width: 30px;
+    height: 200px;
+    scroll-snap-align: start;
+    background-color: #ccc;
+    font-size: 1.5rem;
+}
+
+.bg-1 {
+    background-image: url(../assets/images/flutter.png);
+    background-position: center;
+    background-size: cover;
+    border: #FFCC00 1px solid;
+}
+
+.bg-2 {
+    background-image: url(../assets/images/react_native.png);
+    background-attachment: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: #FFCC00 1px solid;
+}
+
+.bg-3 {
+    background-image: url(../assets/images/javascript.jpg);
+    background-position: center;
+    background-size: cover;
+    border: #FFCC00 1px solid;
+}
+
+.bg-4 {
+    background-image: url(../assets/images/PHP.png);
+    background-position: center;
+    background-size: cover;
+    border: #FFCC00 1px solid;
+}
+
+.bg-5 {
+    background-image: url(../assets/images/Python.png);
+    background-position: center;
+    background-size: cover;
+    border: #FFCC00 1px solid;
+}
+
+.bg-6 {
+    background-image: url(../assets/images/c++.png);
+    background-position: center;
+    background-size: cover;
+    border: #FFCC00 1px solid;
+}
+
+.bg-7 {
+    background-image: url(../assets/images/mongodb.png);
+    background-position: center;
+    background-size: cover;
+    border: #FFCC00 1px solid;
+}
+
+.bg-8 {
+    background-image: url(../assets/images/java.jpg);
+    background-position: center;
+    background-size: cover;
+    border: #FFCC00 1px solid;
+}
+
+.bg-9 {
+    background-image: url(../assets/images/nodejs.png);
+    background-position: center;
+    background-size: cover;
+    border: #FFCC00 1px solid;
+}
+
+.bg-10 {
+    background-image: url(../assets/images/sql.png);
+    background-position: center;
+    background-size: cover;
+    border: #FFCC00 1px solid;
+}
+
+.cookiealert {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 !important;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 0;
+    transform: translateY(100%);
+    transition: all 500ms ease-out;
+    color: #ecf0f1;
+    background: #212327 url('data:image/png;base64');
+}
+
+.cookiealert.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0%);
+    transition-delay: 1000ms;
+}
+
+.cookiealert a {
+    text-decoration: underline
+}
+
+.cookiealert .acceptcookies {
+    margin-left: 10px;
+    vertical-align: baseline;
+}
